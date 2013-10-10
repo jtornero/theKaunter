@@ -76,9 +76,6 @@ class cellCounter(QtGui.QWidget):
         self.exportClipboardButton.clicked.connect(lambda: self.exportData('CLIPBOARD'))
         self.counterChanged.connect(self.updateTotals)
         
-        print self.widgetDictionary
-        print self.sectionsDictionary
-        
         self.show()
     
     def updateTotals(self): 
