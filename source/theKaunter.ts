@@ -55,7 +55,7 @@ along with TheKaunter.  If not, see <http://www.gnu.org/licenses/>.
     <message>
         <location filename="theKaunter.py" line="79"/>
         <source>&lt;p align=&apos;center&apos;&gt;&lt;b&gt;The Kaunter is
-                                   going to be resetted.&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                                   going to be reset.&lt;/b&gt;&lt;br&gt;&lt;br&gt;
                                    All current information is going to be 
                                    lost.&lt;br&gt;&lt;br&gt;&lt;b&gt;Are you sure?&lt;/b&gt;&lt;/p&gt;</source>
         <translation>&lt;p align=&apos;center&apos;&gt;&lt;b&gt;Se va a reiniciar TheKaunter.&lt;/b&gt;&lt;br&gt;&lt;br&gt;

@@ -96,7 +96,7 @@ class cellCounter(QtGui.QWidget):
         confirmation = QtGui.QMessageBox(None)
         confirmation.setWindowTitle(self.tr("Confirmation Dialog"))
         confirmation.setText(self.tr("""<p align='center'><b>The Kaunter is
-                                   going to be resetted.</b><br><br>
+                                   going to be reset.</b><br><br>
                                    All current information is going to be 
                                    lost.<br><br><b>Are you sure?</b></p>"""))  
         btn1 = confirmation.addButton(self.tr("Proceed"), QtGui.QMessageBox.YesRole)
