@@ -19,7 +19,7 @@ Features
 - Counters can be increased, decreased as well as individually reseted. 
 - One totalizer for category/group of counters.
 - Category/counter names as well as key bindings are shown in the GUI for ease of use.
-- Results are exportable to CSV as well as Excel.
+- Results are exportable to CSV as well as to the clipboard.
 - Silent, despite sounds for operation can be configured.
-
+- English as well as Spanish translations for the GUI are provided
 
