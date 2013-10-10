@@ -12,6 +12,7 @@ Differential counters are used in fields like haematology, for counting blood ce
 
 Classic (mechanical) differential counters have up to 10 individual counters and one totalizer. TheKaunter features the possibility of having several categories or groups of counters with one totalizer by category and, unlike mechanical counters, TheKaunter makes possible to reset individual counters and decrease the count.
 
+![Alt text](./screenshot.png "Screenshot of TheKaunter")
 
 Features
 =============
