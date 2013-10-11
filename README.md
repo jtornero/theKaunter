@@ -8,7 +8,7 @@ What is it?
 
 TheKaunter is a multi-category, configurable differential counter.
 
-Differential counters are used in fields like haematology, for counting blood cells; in marine science for instance, they are used for counting different kinds of plankton organisms (eggs, larvae...).
+Differential counters are used in fields like haematology, for counting blood cells; in marine science, for instance, they are used for counting different kinds of plankton organisms (eggs, larvae...), among many other uses.
 
 Classic (mechanical) differential counters have up to 10 individual counters and one totalizer. TheKaunter features the possibility of having several categories or groups of counters with one totalizer by category and, unlike mechanical counters, TheKaunter makes possible to reset individual counters and decrease the count.
 
