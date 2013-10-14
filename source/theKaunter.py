@@ -2,7 +2,7 @@
 
 # TheKaunter. A versatile differential counter.
 # 
-# Copyright 2013 Jorge Tornero Núñez
+# Copyright 2013 Jorge Tornero
 # 
 # This file is part of TheKaunter
 # 
