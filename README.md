@@ -38,4 +38,6 @@ Future enhancements
 
 Dependencies
 ============
+As of version 1.0.0, TheKaunter depends on:
 - PyQt4
+- ConfigParser
