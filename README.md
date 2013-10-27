@@ -18,6 +18,11 @@ License
 =======
 TheKaunter ir **released under GPL V3.0 license.** For further information please see http://www.gnu.org/licenses/gpl-3.0.html
 
+Donations
+=========
+No donations/fees are required for the use of this software, but if you want to reward me in some way, you can send me a postcard from where you live. It will be nice to show to my kid!! In that case, you can mail me to get my postal address.
+If you have a happy pocket, I'm sure you can help people around you, or donate some to your preferred charity/NGO. 
+
 Features
 =============
 - **No theoretical limit of counters/categories**. However, up to a total of 36 individual counters is recommended, due to limitations in keyboard and desktop/GUI size.
