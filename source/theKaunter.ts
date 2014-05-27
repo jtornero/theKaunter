@@ -1,48 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-TheKaunter. A versatile differential counter.
-
-Copyright 2013 Jorge Tornero Núñez http://imasdemase.com
-
-This file is part of TheKaunter
-
-TheKaunter is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-TheKaunter is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with TheKaunter.  If not, see <http://www.gnu.org/licenses/>.
--->
-<!DOCTYPE TS><TS version="2.0" language="es_ES" sourcelanguage="en_GB">
+<!DOCTYPE TS>
+<TS version="2.0" language="es_ES" sourcelanguage="en_GB">
 <context>
     <name>aboutDialog</name>
     <message>
-        <location filename="theKaunter.py" line="527"/>
+        <location filename="theKaunter.py" line="530"/>
         <source>About TheKaunter</source>
         <translation>Acerca de TheKaunter</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="530"/>
+        <location filename="theKaunter.py" line="533"/>
         <source>&lt;center&gt;&lt;h1&gt;TheKaunter&lt;/h1&gt;&lt;h2&gt;
                                 A versatile differential counter&lt;/h2&gt;
                                 &lt;h4&gt;Version 2.0.0&lt;/h4&gt;
                                 &amp;copy; 2013 Jorge Tornero&lt;br&gt;
                                 &lt;a href=&quot;http://imasdemase.com&quot;&gt;
                                 http://imasdemase.com&lt;/a&gt;&lt;br&gt;&lt;/center&gt;</source>
-        <translation>&lt;center&gt;&lt;h1&gt;TheKaunter&lt;/h1&gt;&lt;h2&gt;Un contador diferencial versátil&lt;/h2&gt;
+        <translation type="obsolete">&lt;center&gt;&lt;h1&gt;TheKaunter&lt;/h1&gt;&lt;h2&gt;Un contador diferencial versátil&lt;/h2&gt;
                                 &lt;h4&gt;Version 2.0.0&lt;/h4&gt;
                                 &amp;copy; 2013 Jorge Tornero&lt;br&gt;
                                 &lt;a href=&quot;http://imasdemase.com&quot;&gt;
                                 http://imasdemase.com&lt;/a&gt;&lt;br&gt;&lt;/center&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="539"/>
+        <location filename="theKaunter.py" line="543"/>
         <source>&lt;center&gt;&lt;h3&gt;GNU GENERAL PUBLIC LICENSE&lt;/h3&gt;
                     &lt;h5&gt;Version 3, 29 June 2007&lt;/h5&gt;
                     &lt;/center&gt;&lt;p align=&quot;justify&quot;&gt;This program is free software:
@@ -67,9 +48,23 @@ MERCANTIL o de APTITUD PARA UN PROPÓSITO DETERMINADO. Consulte los detalles de 
 Usted debería haber recibido una copia de la Licencia Pública General GNU junto a este programa. En caso contrario, consulte:&lt;/p&gt; &lt;p&gt;&lt;center&gt; &lt;a href=&quot;http://www.gnu.org/licenses&quot;&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;center&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="559"/>
+        <location filename="theKaunter.py" line="563"/>
         <source>Accept</source>
         <translation>Aceptar</translation>
+    </message>
+    <message>
+        <location filename="theKaunter.py" line="533"/>
+        <source>&lt;center&gt;&lt;h1&gt;TheKaunter&lt;/h1&gt;&lt;h2&gt;
+                                A versatile differential counter&lt;/h2&gt;
+                                &lt;h4&gt;Version 2.0.1&lt;/h4&gt;
+                                &amp;copy; 2013,2014 Jorge Tornero&lt;br&gt;
+                                &lt;a href=&quot;http://imasdemase.com&quot;&gt;
+                                http://imasdemase.com&lt;/a&gt;&lt;br&gt;&lt;/center&gt;</source>
+        <translation>&lt;center&gt;&lt;h1&gt;TheKaunter&lt;/h1&gt;&lt;h2&gt;Un contador diferencial versátil&lt;/h2&gt;
+                                &lt;h4&gt;Version 2.0.1&lt;/h4&gt;
+                                &amp;copy; 2013,2014 Jorge Tornero&lt;br&gt;
+                                &lt;a href=&quot;http://imasdemase.com&quot;&gt;
+                                http://imasdemase.com&lt;/a&gt;&lt;br&gt;&lt;/center&gt;</translation>
     </message>
 </context>
 <context>
@@ -82,12 +77,12 @@ Usted debería haber recibido una copia de la Licencia Pública General GNU junt
     <message>
         <location filename="theKaunter.py" line="81"/>
         <source>Export to &amp;File</source>
-        <translation>Exportar a &amp;Archivo</translation>
+        <translation type="obsolete">Exportar a &amp;Archivo</translation>
     </message>
     <message>
         <location filename="theKaunter.py" line="82"/>
         <source>Export to &amp;Clipboard</source>
-        <translation>Exportar al &amp;Portapapeles</translation>
+        <translation type="obsolete">Exportar al &amp;Portapapeles</translation>
     </message>
     <message>
         <location filename="theKaunter.py" line="130"/>
@@ -95,27 +90,27 @@ Usted debería haber recibido una copia de la Licencia Pública General GNU junt
         <translation>&lt;center&gt;&lt;b&gt;%s&lt;/b&gt;&lt;/center&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="217"/>
+        <location filename="theKaunter.py" line="218"/>
         <source>Total %s</source>
         <translation>Total %s</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="380"/>
+        <location filename="theKaunter.py" line="383"/>
         <source>Confirmation Dialog</source>
         <translation>Diálogo de Confirmación</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="259"/>
+        <location filename="theKaunter.py" line="260"/>
         <source>Proceed</source>
         <translation>Proceder</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="260"/>
+        <location filename="theKaunter.py" line="261"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="297"/>
+        <location filename="theKaunter.py" line="299"/>
         <source>Select file for exporting data</source>
         <translation>Seleccione un fichero para exportar los datos</translation>
     </message>
@@ -134,22 +129,22 @@ Usted debería haber recibido una copia de la Licencia Pública General GNU junt
     <message>
         <location filename="theKaunter.py" line="70"/>
         <source>&amp;Options</source>
-        <translation>&amp;Opciones</translation>
+        <translation type="obsolete">&amp;Opciones</translation>
     </message>
     <message>
         <location filename="theKaunter.py" line="71"/>
         <source>&amp;Load configuration file</source>
-        <translation>&amp;Abrir archivo de configuración</translation>
+        <translation type="obsolete">&amp;Abrir archivo de configuración</translation>
     </message>
     <message>
         <location filename="theKaunter.py" line="72"/>
         <source>&amp;Exit</source>
-        <translation>&amp;Salir</translation>
+        <translation type="obsolete">&amp;Salir</translation>
     </message>
     <message>
         <location filename="theKaunter.py" line="73"/>
         <source>&amp;About</source>
-        <translation>&amp;Acerca de</translation>
+        <translation type="obsolete">&amp;Acerca de</translation>
     </message>
     <message>
         <location filename="theKaunter.py" line="74"/>
@@ -160,7 +155,7 @@ Usted debería haber recibido una copia de la Licencia Pública General GNU junt
         <location filename="theKaunter.py" line="84"/>
         <source>&lt;center&gt;&lt;b&gt;Shif+Key&lt;/b&gt; decreases count, &lt;b&gt;Ctrl+Key&lt;/b&gt;
                                            resets counter, &lt;b&gt;Ctrl+Shift+R&lt;/b&gt; resets TheKaunter&lt;/center&gt;</source>
-        <translation>&lt;center&gt;&lt;b&gt;Mayús.+Key&lt;/b&gt; disminuye contador, &lt;b&gt;Ctrl+Key&lt;/b&gt;reinicia contador, &lt;b&gt;Ctrl+Shift+R&lt;/b&gt; reinicia TheKaunter&lt;/center&gt;</translation>
+        <translation type="obsolete">&lt;center&gt;&lt;b&gt;Mayús.+Key&lt;/b&gt; disminuye contador, &lt;b&gt;Ctrl+Key&lt;/b&gt;reinicia contador, &lt;b&gt;Ctrl+Shift+R&lt;/b&gt; reinicia TheKaunter&lt;/center&gt;</translation>
     </message>
     <message>
         <location filename="theKaunter.py" line="114"/>
@@ -172,7 +167,7 @@ Usted debería haber recibido una copia de la Licencia Pública General GNU junt
                                 &lt;b&gt;Parámetro&lt;/b&gt; &lt;i&gt;%s&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="156"/>
+        <location filename="theKaunter.py" line="157"/>
         <source>Wrong counter configuration parameter:&lt;br&gt;&lt;br&gt;
                             &lt;b&gt;Section&lt;/b&gt; &lt;i&gt;%s&lt;/i&gt;&lt;br&gt;&lt;br&gt;
                             &lt;b&gt;Counter&lt;/b&gt; &lt;i&gt;%s&lt;/i&gt;</source>
@@ -181,7 +176,7 @@ Usted debería haber recibido una copia de la Licencia Pública General GNU junt
                             &lt;b&gt;Parámetro&lt;/b&gt; &lt;i&gt;%s&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="175"/>
+        <location filename="theKaunter.py" line="176"/>
         <source>Missing key binding for:&lt;br&gt;&lt;br&gt;
                             &lt;b&gt;Section&lt;/b&gt; &lt;i&gt;%s&lt;/i&gt;&lt;br&gt;&lt;br&gt;
                             &lt;b&gt;Counter&lt;/b&gt; &lt;i&gt;%s&lt;/i&gt;</source>
@@ -190,14 +185,14 @@ Usted debería haber recibido una copia de la Licencia Pública General GNU junt
                             &lt;b&gt;Contador&lt;/b&gt; &lt;i&gt;%s&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="199"/>
+        <location filename="theKaunter.py" line="200"/>
         <source>
                             There is a duplicate Key Binding
                             </source>
         <translation>Existe una asignación de tecla duplicada</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="255"/>
+        <location filename="theKaunter.py" line="256"/>
         <source>&lt;p align=&apos;center&apos;&gt;&lt;b&gt;The Kaunter is
                                    going to be reset.&lt;/b&gt;&lt;br&gt;&lt;br&gt;
                                    All current information is going to be 
@@ -206,42 +201,74 @@ Usted debería haber recibido una copia de la Licencia Pública General GNU junt
                                    Se perderá toda la información actual.&lt;br&gt;&lt;br&gt;&lt;b&gt;¿Está usted seguro?&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="346"/>
+        <location filename="theKaunter.py" line="349"/>
         <source>Select a suitable configuration file for TheKaunter</source>
         <translation>Seleccione un fichero de configuración apropiado para TheKaunter</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="382"/>
+        <location filename="theKaunter.py" line="385"/>
         <source>Load configuration</source>
         <translation>Cargar configuración</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="383"/>
+        <location filename="theKaunter.py" line="386"/>
         <source>Exit</source>
         <translation>Salir</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="372"/>
+        <location filename="theKaunter.py" line="375"/>
         <source>&lt;center&gt;&lt;b&gt;An error has been detected while&lt;br&gt;
                            parsing the configuration file:&lt;/b&gt;&lt;br&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;center&gt;&lt;b&gt;Se ha detectado un error al&lt;br&gt;
+                           analizar el fichero de configuración:&lt;/b&gt;&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="374"/>
+        <location filename="theKaunter.py" line="377"/>
         <source>&lt;br&gt;&lt;br&gt;Do you want to try again or do you
                            want to exit TheKaunter?&lt;/center&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br&gt;&lt;br&gt;Desea intentarlo de nuevo o prefier salir de TheKaunter?&lt;/center&gt;</translation>
+    </message>
+    <message>
+        <location filename="theKaunter.py" line="70"/>
+        <source>Options</source>
+        <translation>Opciones</translation>
+    </message>
+    <message>
+        <location filename="theKaunter.py" line="71"/>
+        <source>Load configuration file</source>
+        <translation>Cargar fichero de configuración</translation>
+    </message>
+    <message>
+        <location filename="theKaunter.py" line="73"/>
+        <source>About</source>
+        <translation>Acerca de</translation>
+    </message>
+    <message>
+        <location filename="theKaunter.py" line="81"/>
+        <source>Export to File</source>
+        <translation>Exportar a fichero</translation>
+    </message>
+    <message>
+        <location filename="theKaunter.py" line="82"/>
+        <source>Export to Clipboard</source>
+        <translation>Exportar al portapapeles</translation>
+    </message>
+    <message>
+        <location filename="theKaunter.py" line="84"/>
+        <source>&lt;center&gt;&lt;b&gt;Alt+Key&lt;/b&gt; decreases count, &lt;b&gt;Ctrl+Key&lt;/b&gt;
+                                           resets counter, &lt;b&gt;Ctrl+Shift+R&lt;/b&gt; resets TheKaunter&lt;/center&gt;</source>
+        <translation>&lt;center&gt;&lt;b&gt;Alt+Key&lt;/b&gt; disminuye contador, &lt;b&gt;Ctrl+Key&lt;/b&gt;reinicia contador, &lt;b&gt;Ctrl+Shift+R&lt;/b&gt; reinicia TheKaunter&lt;/center&gt;</translation>
     </message>
 </context>
 <context>
     <name>countingWidget</name>
     <message>
-        <location filename="theKaunter.py" line="422"/>
+        <location filename="theKaunter.py" line="425"/>
         <source>&lt;center&gt;%s&lt;br&gt;%s&lt;/center&gt;</source>
         <translation>&lt;center&gt;%s&lt;br&gt;%s&lt;/center&gt;</translation>
     </message>
     <message>
-        <location filename="theKaunter.py" line="425"/>
+        <location filename="theKaunter.py" line="428"/>
         <source>&lt;center&gt;&lt;b&gt;%s&lt;br&gt;%s&lt;/b&gt;&lt;/center&gt;</source>
         <translation>&lt;center&gt;&lt;b&gt;%s&lt;br&gt;%s&lt;/b&gt;&lt;/center&gt;</translation>
     </message>

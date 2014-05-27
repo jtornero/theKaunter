@@ -2,9 +2,9 @@
 
 # TheKaunter. A versatile differential counter.
 # 
-# Copyright 2013 Jorge Tornero Nunez http://imasdemase.com
+# Copyright 2013,2014 Jorge Tornero Nunez http://imasdemase.com
 # 
-# This file is part of TheKaunter, V2.0.0
+# This file is part of TheKaunter, V2.0.1
 # 
 # TheKaunter is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -67,10 +67,10 @@ class cellCounter(QtGui.QWidget):
         # MenuBar definition
         
         self.menu = QtGui.QMenuBar(self)
-        self.options = self.menu.addMenu(self.tr("&Options"))
-        self.openConfigAction = self.options.addAction(self.tr("&Load configuration file"))
-        self.exitAction = self.options.addAction(self.tr("&Exit"))
-        self.about = self.menu.addMenu(self.tr("&About"))
+        self.options = self.menu.addMenu(self.tr("Options"))
+        self.openConfigAction = self.options.addAction(self.tr("Load configuration file"))
+        self.exitAction = self.options.addAction(self.tr("Exit"))
+        self.about = self.menu.addMenu(self.tr("About"))
         self.aboutAction = self.about.addAction(self.tr("About the Kaunter"))
         
         # Widgets layout definitions and other global stuff
@@ -78,10 +78,10 @@ class cellCounter(QtGui.QWidget):
         self.counterLayout = QtGui.QGridLayout(self) # General layout
         self.counterLayout.addWidget(self.menu)
         self.bottomLayout = QtGui.QGridLayout() # Bottom layout for buttons and help text
-        self.exportFileButton = QtGui.QPushButton(self.tr("Export to &File"))
-        self.exportClipboardButton = QtGui.QPushButton(self.tr("Export to &Clipboard"))
+        self.exportFileButton = QtGui.QPushButton(self.tr("Export to File"))
+        self.exportClipboardButton = QtGui.QPushButton(self.tr("Export to Clipboard"))
 
-        self.helpText=QtGui.QLabel(self.tr("""<center><b>Shif+Key</b> decreases count, <b>Ctrl+Key</b>
+        self.helpText=QtGui.QLabel(self.tr("""<center><b>Alt+Key</b> decreases count, <b>Ctrl+Key</b>
                                            resets counter, <b>Ctrl+Shift+R</b> resets TheKaunter</center>"""))
         self.bottomLayout.addWidget(self.exportFileButton, 0, 0, 1, 1)
         self.bottomLayout.addWidget(self.exportClipboardButton, 0, 1, 1, 1)
@@ -309,18 +309,19 @@ class cellCounter(QtGui.QWidget):
         """
         Handles the key presses in TheKaunter main widget.
         The bound key alone increases the counter's count
-        Shift + Bound Key decreases it.
+        Alt + Bound Key decreases it.
         Ctrl + Bound Key resets an individual counter. Global count
         takes it into account.
         Ctrl + Shift + R resets all the counters.
         """
-           
+        print event.modifiers(),event.key(),event.nativeVirtualKey()
+        
         if (event.modifiers() == QtCore.Qt.NoModifier) and\
            (event.key() in self.widgetDictionary):
             self.widgetDictionary[event.key()].editor.increase()
             self.counterChanged.emit()
             
-        elif (event.modifiers() == QtCore.Qt.ShiftModifier) and\
+        elif (event.modifiers() == QtCore.Qt.AltModifier) and\
              (event.key() in self.widgetDictionary):
             self.widgetDictionary[event.key()].editor.decrease()
             self.counterChanged.emit()
@@ -530,10 +531,11 @@ class aboutDialog(QtGui.QDialog):
         self.headerLabel = \
         QtGui.QLabel(self.tr("""<center><h1>TheKaunter</h1><h2>
                                 A versatile differential counter</h2>
-                                <h4>Version 2.0.0</h4>
-                                &copy; 2013 Jorge Tornero<br>
+                                <h4>Version 2.0.1</h4>
+                                &copy; 2013,2014 Jorge Tornero<br>
                                 <a href="http://imasdemase.com">
                                 http://imasdemase.com</a><br></center>"""))
+      
         
         self.headerLabel.setOpenExternalLinks(True)
         
