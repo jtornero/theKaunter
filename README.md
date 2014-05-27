@@ -25,8 +25,11 @@ If you have a happy pocket, I'm sure you can help people around you, or donate s
 
 Citation
 ========
-If you use TheKaunter in a scientific research work, you can cite it as:
+If you use TheKaunter in a scientific research work, you can cite it as
 
+Jorge Tornero (2014). TheKaunter: A multi-category, configurable differential counter. ZENODO. 10.5281/zenodo.10156
+
+![Alt text](https://zenodo.org/badge/3808/jtornero/theKaunter.png "TheKaunter DOI Badge")
 
 Features
 =============
